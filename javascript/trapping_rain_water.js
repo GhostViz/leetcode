@@ -1,10 +1,10 @@
 // https://leetcode.com/problems/trapping-rain-water/
 
 var trap = function(height) {
-    var result = 0;
+    let result = 0;
 
-    var leftMax = 0;
-    var rightMax = 0;
+    let leftMax = 0;
+    let rightMax = 0;
 
     low = 0;
     high = height.length - 1;
